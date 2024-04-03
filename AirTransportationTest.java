@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Test;
  * @version 03/2024
  */
 
-public class AirTransportationTest {
+public class AirTransportationTest{
 
     private AirTransportation airTransport;
 
