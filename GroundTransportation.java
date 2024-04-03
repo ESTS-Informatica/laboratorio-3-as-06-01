@@ -9,8 +9,17 @@ public class GroundTransportation
 {
     private String licensePlate;
     private static final double FEE = 3.0;
-    public GroundTransportation()
+    public GroundTransportation(String licensePlate)
     {
         super();
+        this.licensePlate = licensePlate;
+    }
+    
+     public String getLicensePlate() {
+        return licensePlate;
+    }
+
+    public void setLicensePlate(String licensePlate) {
+        this.licensePlate = licensePlate;
     }
 }
