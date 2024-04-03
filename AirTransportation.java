@@ -50,7 +50,7 @@ public class AirTransportation extends Transport
         sb.append(String.format("\n%15s: %s\n", "Nome", getName())); 
         sb.append(String.format("\n%15s: %s\n", "Tipo de transporte", getTransportType()));  
         sb.append(String.format("%15s: %4.2f%%\n", "Honorarios", this.FEE));
-        sb.append(String.format("%15s: %4.2f%%\n", "Número de containers", getNumberOfContainers()));
+        sb.append(String.format("%15s: %d\n", "Número de containers", getNumberOfContainers()));
         sb.append(String.format("%15s: %4.2f€\n", "Preço Final", getPriceWithFees()));
      
         return sb.toString();
